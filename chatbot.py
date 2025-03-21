@@ -10,8 +10,8 @@ genai.configure(api_key="AIzaSyDJa1F0ulOjuivgI-C5yifq192ZQ-jIFRQ")  # Replace wi
 model = genai.GenerativeModel('gemini-1.5-pro-latest')  # Choose the best model
 
 # Streamlit UI
-st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
-st.title("💬 Chatbot with Gemini API")
+st.set_page_config(page_title="INTERVIEW PREPARATION BOT", page_icon="🤖")
+st.title("💬  Your interview preparation assistant.")
 st.write("Ask me anything!")
 
 # Store conversation history in session state
